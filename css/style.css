@@ -87,6 +87,7 @@ body {
   width: 100%; }
 
 .jumbotron {
+  position: inherit;
   background-color: inherit; }
 
 .bg-color3 img {
@@ -167,12 +168,13 @@ body {
   background-color: #7D2313; }
 
 .bg-color7 {
-  font-size: 20px;
-  text-align: center;
+  font-size: 11px;
   position: relative;
   width: 100%;
   background-color: black;
-  color: white;
-  font-size: 130%; }
+  color: white; }
+
+.bg-colormenu {
+  background-color: white; }
 
 /*# sourceMappingURL=style.css.map */

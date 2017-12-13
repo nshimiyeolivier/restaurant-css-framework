@@ -106,13 +106,19 @@ body {
               }
 
 
-                /*content*/
+
+  /*content*/
 .content {
   position: relative;
   width: 100%;
+
 }
 
-.jumbotron { background-color:inherit;}
+.jumbotron {
+  position:inherit;
+  background-color:inherit;
+
+}
 
 .bg-color3 img {
   background-image: linear-gradient(to left, #7BB062, #cccc00);
@@ -212,12 +218,14 @@ body {
 
 .bg-colorfooter { background-color: #7D2313;}
 
-.bg-color7 {
-              font-size: 20px;
-              text-align: center;
+.bg-color7 {  font-size: 11px;
               position: relative;
               width: 100%;
               background-color: black;
               color: white;
-              font-size: 130%;
           }
+
+
+// carte.html
+
+.bg-colormenu {background-color: white;}
