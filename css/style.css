@@ -174,7 +174,58 @@ body {
   background-color: black;
   color: white; }
 
+.titremenu {
+  position: relative;
+  width: 100%;
+  color: white;
+  background-color: #832815;
+  opacity: 0.9; }
+
 .bg-colormenu {
-  background-color: white; }
+  background-color: #7DAF62;
+  color: black;
+  font-size: 150%;
+  opacity: 0.95;
+  border-bottom: 3px solid #863C1A;
+  margin-top: 1%; }
+  .bg-colormenu h3 {
+    text-align: center; }
+  .bg-colormenu h4 {
+    padding-top: 5%;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 300%;
+    color: #822714; }
+
+.bg-colorgalerie {
+  position: relative;
+  background-color: #7CAE60;
+  border-bottom: 20px solid #842B1A; }
+
+.bg-colorh3 {
+  background-color: #842B1A;
+  color: white;
+  text-align: center; }
+
+.carousel-item {
+  margin-bottom: 5%; }
+  .carousel-item img {
+    max-width: 800px;
+    height: 500px;
+    max-height: 400px;
+    margin-left: 18%; }
+
+.pagination {
+  background-color: #842B1A;
+  margin: 2%;
+  padding-left: 32%; }
+
+.threepictures img {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.pagination {
+  align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
