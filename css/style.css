@@ -200,7 +200,8 @@ body {
 .bg-colorgalerie {
   position: relative;
   background-color: #7CAE60;
-  border-bottom: 20px solid #842B1A; }
+  border-bottom: 20px solid #842B1A;
+  margin-top: 8px; }
 
 .bg-colorh3 {
   background-color: #842B1A;
@@ -215,6 +216,17 @@ body {
     max-height: 400px;
     margin-left: 18%; }
 
+.bg-colorslides img {
+  margin-top: 50px;
+  border: 10px solid white; }
+
+@media screen and (max-width: 640px) {
+  .bg-colorslides img {
+    max-height: 200px;
+    min-width: 100%;
+    margin-left: -13%;
+    position: relative;
+    margin-left: 0.5%; } }
 .pagination {
   background-color: #842B1A;
   margin: 2%;
@@ -222,12 +234,15 @@ body {
 
 .threepictures img {
   position: relative;
+  border: 10px solid white;
   width: 100%;
   height: 100%; }
 
-.pagination {
-  align-items: center; }
-
+@media screen and (max-width: 640px) {
+  .pagination {
+    background-color: #842B1A;
+    margin: 2%;
+    padding-left: 7%; } }
 .restotitle {
   margin-top: 2%;
   color: white;
