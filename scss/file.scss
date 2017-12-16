@@ -279,3 +279,24 @@ opacity: 0.9;
           }
 
 .pagination {align-items: center;}
+
+// RESTAURANT.html
+
+.restotitle {
+  margin-top: 2%;
+  color: white;
+  background-color: #842B1A;
+  text-align: center;
+& p { font-size: 350%;}
+
+}
+
+.bg-colorrestoadresse {
+  position:relative;
+  background-color:#7EB164;
+& p {font-size: 170%;}
+& h6 {color: white;}
+ }
+ .maps { background-color: #842B1A;
+ padding-top: 1%;
+padding-bottom: 1%;}

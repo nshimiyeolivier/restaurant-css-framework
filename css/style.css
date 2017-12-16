@@ -228,4 +228,25 @@ body {
 .pagination {
   align-items: center; }
 
+.restotitle {
+  margin-top: 2%;
+  color: white;
+  background-color: #842B1A;
+  text-align: center; }
+  .restotitle p {
+    font-size: 350%; }
+
+.bg-colorrestoadresse {
+  position: relative;
+  background-color: #7EB164; }
+  .bg-colorrestoadresse p {
+    font-size: 170%; }
+  .bg-colorrestoadresse h6 {
+    color: white; }
+
+.maps {
+  background-color: #842B1A;
+  padding-top: 1%;
+  padding-bottom: 1%; }
+
 /*# sourceMappingURL=style.css.map */
