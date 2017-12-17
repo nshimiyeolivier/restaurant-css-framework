@@ -24,7 +24,7 @@ body {
   background-image: linear-gradient(to right, #7BB062, #cccc00);
   color: black; }
   .bienvenue h3 {
-    margin-top: 0%;
+    margin-top: 0;
     text-align: center;
     font-weight: bold; }
   .bienvenue p {
@@ -61,6 +61,9 @@ body {
   border-radius: 35%;
   /*height: 50%;*/ }
 
+@media screen and (max-width: 640px) {
+  .bg-color1 {
+    display: none; } }
 .bg-color2 {
   /*background-color: #D8D6C9;*/
   font-size: 250%;
@@ -80,6 +83,9 @@ body {
   .bg-color2 li {
     margin: 2%;
     display: inline-block; }
+
+.bg-colornav {
+  margin-top: 80px; }
 
 /*content*/
 .content {
@@ -263,5 +269,46 @@ body {
   background-color: #842B1A;
   padding-top: 1%;
   padding-bottom: 1%; }
+
+.contactrow {
+  margin-top: 2%;
+  border-top: 4px solid white; }
+
+.contactsubscribe {
+  background-color: #812613;
+  opacity: 0.9;
+  font-size: 180%;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 10px; }
+  .contactsubscribe h3 {
+    padding-bottom: 1%;
+    border-bottom: 1px solid white;
+    text-align: center; }
+
+.contactform {
+  background-color: #78AB5E;
+  opacity: 0.9;
+  font-size: 180%;
+  padding-bottom: 20px;
+  padding-top: 10px; }
+  .contactform h3 {
+    text-align: center;
+    padding-bottom: 1%;
+    border-bottom: 1px solid white; }
+
+.contactadresse {
+  background-color: #812613;
+  opacity: 0.9;
+  font-size: 180%;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 10px; }
+  .contactadresse h4 {
+    padding-bottom: 1%;
+    border-bottom: 1px solid white; }
+  .contactadresse h5 {
+    padding-bottom: 1%;
+    border-bottom: 1px solid white; }
 
 /*# sourceMappingURL=style.css.map */
