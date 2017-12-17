@@ -42,6 +42,13 @@ body {
     font-size: 200%;
   }
 }
+
+@media screen and (max-width: 640px) {
+   .bg-color {
+    height: 820px;
+              }
+             }
+
 // panels
 .panel1 img {
   position: relative;
@@ -63,6 +70,12 @@ body {
   border: 4px solid #832815;
   border-radius: 5%;
 }
+
+@media screen and (max-width: 640px) {
+   .panel2 img {
+    margin-left: 20%;
+              }
+             }
 
 .bg-color1 img {
   position: relative;
@@ -145,6 +158,12 @@ body {
   min-width: 300px;
 }
 
+@media screen and (max-width: 640px) {
+   .bg-color3 img {
+      margin-left: -9%;
+              }
+             }
+
 .bg-color4 {
   border: 3px solid #812414;
   background-color: #7BB062;
@@ -198,11 +217,18 @@ body {
   color: white;
   padding-left: 6%;
 }
+
+@media screen and (max-width: 640px) {
+   .bg-color61 {
+    margin-left: 21%;
+              }
+             }
 /*footer*/
 .bg-color6 {
   position: relative;
   width: 100%;
   color: white;
+
 
   & a {
     text-decoration: none;
