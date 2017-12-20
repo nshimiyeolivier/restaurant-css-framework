@@ -31,8 +31,8 @@
         </div>
 
         <div class="col-lg-9 col-12 bg-color2">
-  <div class = "container allnav">
-    <nav class="navbar navbar-expand-lg navbar-light bg-colornav">
+    <div class = "container allnav" >
+    <nav class="navbar navbar-expand-lg navbar-light" id="bg-colornav">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -41,7 +41,7 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <div class ="container navbarToggle">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="index.html">ACCUEIL <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
@@ -50,7 +50,7 @@
           <li class="nav-item">
             <a class="nav-link" href="photos.html">PHOTOS</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="restaurant.html">RESTAURANT</a>
           </li>
           <li class="nav-item">
@@ -142,6 +142,20 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+  <!-- <script type="text/javascript" src="../js/resto.js"></script> -->
+
+  <script>
+  $(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 100) {
+      $('#bg-colornav').css("top", "0");
+    }
+    else {
+            $('#bg-colornav').css("top", "11%");
+          }
+  });
+  </script>
 
 </body>
 

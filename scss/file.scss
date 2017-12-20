@@ -6,6 +6,7 @@ body {
   opacity: 0.96;
 }
 
+
 .container-fluid {
   width: 100%;
 }
@@ -43,11 +44,7 @@ body {
   }
 }
 
-@media screen and (max-width: 640px) {
-   .bg-color {
-    height: 820px;
-              }
-             }
+
 
 // panels
 .panel1 img {
@@ -71,11 +68,6 @@ body {
   border-radius: 5%;
 }
 
-@media screen and (max-width: 640px) {
-   .panel2 img {
-    margin-left: 20%;
-              }
-             }
 
 .bg-color1 img {
   position: relative;
@@ -84,29 +76,30 @@ body {
   width: 100%;
   border: 6px solid #812414;
   border-radius: 35%;
+  z-index: 999;
+
+
   /*height: 50%;*/
 }
 
-@media screen and (max-width: 640px) {
-  .bg-color1 {
-    display: none;
-  }
-}
+
 
 // NAV-BAR
 
-.allnav {margin-top: 50px;}
-.bg-colornav{
+// .allnav {margin-top: 50px;}
+#bg-colornav{
+  width: 100% !important;
+  position: fixed;
+  z-index: 999;
   /*background-color: #D8D6C9;*/
   font-size: 250%;
   font-weight: bold;
-  position: relative;
   background-color: #7BB062;
-  margin-top: 7.2%;
+  top: 11%;
   border-top: 3px solid #812414;
   border-bottom: 3px solid #812414;
-  margin-right: -39%;
-  margin-left: -4%;
+  padding: 0 !important;
+  left: 0;
 
   & a {
     text-decoration: none;
@@ -125,14 +118,9 @@ body {
                border:2px solid #842915;
               border-radius: 30px;
               background-color: white;
+              margin-left: 10%;
              }
 
-@media screen and (max-width: 640px) {
-   .bg-colornav {
-      margin-left: -12%;
-      padding-right: 22%;
-              }
-             }
 
 
 /*content*/
@@ -158,11 +146,7 @@ body {
   min-width: 300px;
 }
 
-@media screen and (max-width: 640px) {
-   .bg-color3 img {
-      margin-left: -9%;
-              }
-             }
+
 
 .bg-color4 {
   border: 3px solid #812414;
@@ -171,14 +155,14 @@ body {
 
   & img {
     /*margin-left: 15%;*/
-    margin-top: 20%;
+    margin-top: 25%;
     width: 100%;
     height: 130%;
   }
 
   &b {
     margin-left: 40%;
-    margin-top: -20%;
+    margin-top: -14%;
     font-size: 350%;
   }
 
@@ -218,11 +202,7 @@ body {
   padding-left: 6%;
 }
 
-@media screen and (max-width: 640px) {
-   .bg-color61 {
-    margin-left: 21%;
-              }
-             }
+
 /*footer*/
 .bg-color6 {
   position: relative;
@@ -233,7 +213,7 @@ body {
   & a {
     text-decoration: none;
     color: white;
-    font-size: 250%;
+    font-size: 200%;
     font-weight: bold;
   }
 
@@ -331,15 +311,7 @@ body {
   margin-top: 50px;
   border: 10px solid white;
 }
-@media screen and (max-width: 640px) {
-  .bg-colorslides img {
-    max-height: 200px;
-    min-width: 100%;
-    margin-left: -13%;
-    position: relative;
-    margin-left: 0.5%;
-  }
-}
+
 // pagination
 .pagination {
   background-color: #842B1A;
@@ -354,13 +326,7 @@ body {
   height: 100%;
 }
 // .pagination {align-items: center;}
-@media screen and (max-width: 640px) {
-  .pagination {
-    background-color: #842B1A;
-    margin: 2%;
-    padding-left: 7%;
-  }
-}
+
 // RESTAURANT.html
 .restotitle {
   margin-top: 2%;
@@ -443,4 +409,48 @@ body {
     padding-bottom: 1%;
     border-bottom: 1px solid white;
   }
+}
+
+//MEDIA QUERRY
+
+@media screen and (max-width: 640px) {
+  .pagination {
+    background-color: #842B1A;
+    margin: 2%;
+    padding-left: 7%;
+              }
+
+  .bg-color {
+   height: 820px;
+             }
+  .bg-color61 {
+    margin-left: 21%;
+              }
+  .bg-colorslides img {
+    max-height: 200px;
+    min-width: 100%;
+    margin-left: -13%;
+    position: relative;
+    margin-left: 0.5%;
+              }
+  .bg-color3 img {
+    margin-left: -9%;
+    margin-top: 48%;
+    max-height: 250px;
+             }
+.bienvenue {margin-top: 22px;}
+
+  .bg-colornav {
+    margin-left: -12%;
+    padding-right: 22%;
+            }
+
+  .bg-color1 {
+    display: none;
+            }
+  .panel2 img {
+    margin-left: 20%;
+    margin-top: -5px;
+             }
+
 }

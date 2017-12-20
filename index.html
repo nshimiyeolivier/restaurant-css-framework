@@ -42,9 +42,9 @@
 
 
       <div class="col-lg-9 col-12 bg-color2">
-<div class = "container allnav">
-  <nav class="navbar navbar-expand-lg navbar-light bg-colornav">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+<div class = "container allnav" >
+  <nav class="navbar navbar-expand-lg navbar-light" id="bg-colornav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation" >
       <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="#" id="minilogo"> <img src="images/logo olstar.png" alt="Logo Ol-Star"> </a>
@@ -53,7 +53,7 @@
       <div class ="container navbarToggle">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
         <li class="nav-item active">
-          <a class="nav-link" href="index">ACCUEIL <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">ACCUEIL <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="carte.html">CARTE</a>
@@ -118,7 +118,7 @@
         <div class="col-lg-4 col-12 bg-color4">
           <a href="carte.html">
             <div class="col-lg-5 col-6 bg-color4a">
-              <img src="images/6-2-burger-png-image.png" alt="image repas" class="img-responsive">
+              <img src="images/hburger_assiete 600_0x350.png" alt="image repas" class="img-responsive">
             </div>
             <div class="col-lg-7 col-6 bg-color4b"> REPAS
             </div>
@@ -184,6 +184,19 @@ Fermeture le lundi et le mardi <br />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
+<!-- <script type="text/javascript" src="../js/resto.js"></script> -->
+
+<script>
+$(document).scroll(function () {
+  var y = $(this).scrollTop();
+  if (y > 100) {
+    $('#bg-colornav').css("top", "0");
+  }
+  else {
+          $('#bg-colornav').css("top", "11%");
+        }
+});
+</script>
 
 </body>
 
